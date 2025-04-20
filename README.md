@@ -1,47 +1,71 @@
-# sql-data-analytics-project
-A comprehensive collection of SQL scripts for data exploration, analytics, and reporting. These scripts cover various analyses such as database exploration, measures and metrics, time-based trends, cumulative analytics, segmentation, and more.
-This repository contains SQL queries designed to help data analysts and BI professionals quickly explore, segment, and analyze data within a relational database. Each script focuses on a specific analytical theme and demonstrates best practices for SQL queries.
+# Advanced Data Analytics Project using SQL
 
----
+This project demonstrates how to perform advanced data analytics directly within a database using SQL. It covers various techniques to derive business insights from data, analyze trends, compare performance, segment data, and generate comprehensive reports.
 
-## ☕ Stay Connected
+## Description
 
-Let's stay in touch! Feel free to connect with me on the following platforms:
+This repository contains the SQL scripts and resources used to conduct an advanced data analytics project. The project focuses on leveraging the power of SQL to answer real-world business questions by applying sophisticated analytical techniques directly within the database environment.
 
-[![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](http://bit.ly/3GiCVUE)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/baraa-khatib-salkini)
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.datawithbaraa.com)
-[![Newsletter](https://img.shields.io/badge/Newsletter-FF5722?style=for-the-badge&logo=substack&logoColor=white)](https://bit.ly/BaraaNewsletter)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/baraasalkini)
-[![Join](https://img.shields.io/badge/Join-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@datawithbaraa)
+## Key Features
 
-All Courses and their materials are completely free, and all I ask is your support through subscribing, liking, and commenting on my channel. Your engagement means the world to me and It help the channel!
-- ✅ **SQL Full Course:** [Course Link](https://youtu.be/SSKVgrwhzus) | [Download Materials](https://www.datawithbaraa.com/sql-introduction/sql-ultimate-course/) | [GIT Repo](https://github.com/DataWithBaraa/sql-ultimate-course)
-- ✅ **Tableau Full Course:** [Course Link](https://www.youtube.com/watch?v=K3pXnbniUcM) | [Download Materials](https://www.datawithbaraa.com/tableau/tableau-thank-you/) | [Public](https://public.tableau.com/app/profile/baraa.salkini/vizzes)
+* **Data Acquisition and Database Setup:** Instructions on how to set up the project database using SQL Server.
 
-- ✅ **SQL Data Warehouse Project:** [Course Link](https://youtu.be/SSKVgrwhzus) | [Download Materials](https://www.datawithbaraa.com/sql-introduction/advanced-sql-project/) | [GIT Repo](https://github.com/DataWithBaraa/sql-data-warehouse-project)
-- ✅ **SQL Exploratory Data Analysis Project:** [Course Link](https://youtu.be/SSKVgrwhzus) | [Download Materials](https://www.datawithbaraa.com/sql-introduction/advanced-sql-analytics-project/) | [GIT Repo](https://github.com/DataWithBaraa/sql-data-analytics-project)
-- ✅ **SQL Advanced Data Analysis Project:** [Course Link](https://youtu.be/SSKVgrwhzus) | [Download Materials](https://www.datawithbaraa.com/sql-introduction/advanced-sql-analytics-project/) | [GIT Repo](https://github.com/DataWithBaraa/sql-data-analytics-project)
-  
-- ✅ **Tableau Sales Project:** [Course Link](https://www.youtube.com/watch?v=dahrmqT5GD4) | [Download Materials](https://datawithbaraa.substack.com/p/access-to-course-materials) | [Public](https://public.tableau.com/app/profile/baraa.salkini/vizzes)
-- ✅ **Tableau HR Project:** [Course Link](https://www.youtube.com/watch?v=UcGF09Awm4Y) | [Download Materials](https://datawithbaraa.substack.com/p/access-to-course-materials) | [Public](https://public.tableau.com/app/profile/baraa.salkini/vizzes)
-- ✅ **ChatGPT:** [Course Link](https://www.youtube.com/watch?v=LJLNfei4i-c) | [Download Materials](https://datawithbaraa.substack.com/p/access-to-course-materials)
+* **Change Over Time Analysis:** Analyze how key metrics evolve over time to identify trends and seasonality.
 
----
+* **Cumulative Analysis:** Perform progressive aggregations to understand business growth and cumulative performance.
 
-## 🛡️ License
+* **Performance Analysis:** Compare current data points against targets or benchmarks to measure performance.
 
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+* **Part-to-Whole Analysis:** Determine the proportional contribution of individual categories or segments to the overall business.
 
-## 🌟 About Me
+* **Data Segmentation:** Group data based on specific criteria to create meaningful segments for targeted analysis.
 
-Hi there! I'm **Baraa Khatib Salkini**, also known as **Data With Baraa**. I’m an IT professional and passionate YouTuber on a mission to share knowledge and make working with data enjoyable and engaging!
+* **Comprehensive Reporting:** Generate detailed Customer and Product reports consolidating key analytical findings and KPIs.
 
-Let's stay in touch! Feel free to connect with me on the following platforms:
+## Technologies Used
 
-[![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](http://bit.ly/3GiCVUE)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/baraa-khatib-salkini)
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.datawithbaraa.com)
-[![Newsletter](https://img.shields.io/badge/Newsletter-FF5722?style=for-the-badge&logo=substack&logoColor=white)](https://bit.ly/BaraaNewsletter)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/baraasalkini)
-[![Join](https://img.shields.io/badge/Join-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@datawithbaraa)
+* **SQL:** For all data querying, analysis, and reporting tasks.
+
+* **SQL Server:** Database management system used for setting up and hosting the data.
+
+* **Database Concepts:** Application of relational database principles.
+
+* **Git/GitHub:** For version control and project collaboration.
+
+## Setup and Installation
+
+1.  **Clone the Repository:**
+    ```
+    git clone [repository_url]
+
+    ```
+
+2.  **Database Setup:**
+
+    * Ensure you have SQL Server installed and running.
+
+    * Obtain the project datasets (refer to the video description or a `data` folder if included).
+
+    * Set up the database in SQL Server. This typically involves:
+
+        * Executing provided SQL scripts to create the database and tables.
+
+        * Importing data from flat files (e.g., CSV) into the created tables.
+
+        * Alternatively, restoring a database backup if provided.
+
+    * Update connection strings or credentials as necessary.
+
+## Usage
+
+1.  Connect to your SQL Server database using a client tool (e.g., SQL Server Management Studio, Azure Data Studio, DBeaver).
+
+2.  Navigate to the `sql_scripts` folder (or similar) in the cloned repository.
+
+3.  Execute the SQL scripts sequentially or as needed to perform the different types of analysis (Change Over Time, Cumulative, etc.).
+
+4.  Run the scripts for the Customer and Product reports to generate the final outputs.
+
+5.  Modify the queries as needed for specific analytical questions or different datasets.
+
+## Repository Structure
